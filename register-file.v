@@ -20,7 +20,7 @@ module registerFile_tb();
 	wire [31:0] rdData2;
 	reg clk;
 
-    reg [5:0] index;
+    reg [5:0] index; // 6 bits so that it doesnt overflow in the following for loop.
 
 	always begin #5 clk = ~clk; end
 
