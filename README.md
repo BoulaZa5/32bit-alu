@@ -1,31 +1,23 @@
-# 32-bit ALU connected to a Register File
-Verilog code for an 32-bit ALU connected to a register file.
+<h4 align="center">Verilog design of an 32-bit ALU connected to a Register File.</h4>
 
-# schematic
+### Schematic
+<p align="center">
 ![alt text](https://github.com/BoulaZa5/32bit-alu/blob/master/projectSchematic.sch.svg)
+</p>
 
-# licence
-This is free and unencumbered software released into the public domain.
+### ALU Features
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+- [x] Addition.
+- [x] Subtraction.
+- [x] AND gate.
+- [x] OR gate.
+- [x] Shifting Left.
+- [x] Shifting Right Logical.
+- [x] Shifting Right Arithmetical.
+- [x] Greater Than.
+- [x] Less Than.
+- [ ] Overflow Detection.
+- [x] Writing to Register File.
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
-
-For more information, please refer to <https://unlicense.org>
+### Licence
+[Unlicense](https://unlicense.org)
