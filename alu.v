@@ -24,7 +24,7 @@ module alu_tb;
 
 		// $monitor ("in1:%d in2:%d opCode:%d shiftAmt:%d result:%d", in1, in2, opCode, shiftAmt, result);
 
-        shiftAmt = 0;
+		shiftAmt = 0;
 		#10 opCode = 0; in1 = 5; in2 = 7; #2 $display ("%d + %d = %d", in1, in2, result);
 		#10 in1 = -5; in2 = -7; #2 $display ("%d + %d = %d", in1, in2, result);
 		#10 in1 = -5; in2 = 7; #2 $display ("%d + %d = %d", in1, in2, result);
