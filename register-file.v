@@ -20,7 +20,7 @@ module registerFile_tb();
 	wire [31:0] rdData2;
 	reg clk;
 
-    reg [5:0] index; // 6 bits so that it doesnt overflow in the following for loop.
+	reg [5:0] index; // 6 bits so that it doesnt overflow in the following for loop.
 
 	always begin #5 clk = ~clk; end
 
@@ -40,13 +40,13 @@ module registerFile_tb();
 		#10 rdReg1 = 6; rdReg2 = 7; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
 		#10 rdReg1 = 8; rdReg2 = 9; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
 		#10 rdReg1 = 10; rdReg2 = 11; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
-        #10 rdReg1 = 12; rdReg2 = 13; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
+		#10 rdReg1 = 12; rdReg2 = 13; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
 		#10 rdReg1 = 14; rdReg2 = 15; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
 		#10 rdReg1 = 16; rdReg2 = 17; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
 		#10 rdReg1 = 18; rdReg2 = 19; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
 		#10 rdReg1 = 20; rdReg2 = 21; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
 		#10 rdReg1 = 22; rdReg2 = 23; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
-        #10 rdReg1 = 24; rdReg2 = 25; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
+		#10 rdReg1 = 24; rdReg2 = 25; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
 		#10 rdReg1 = 26; rdReg2 = 27; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
 		#10 rdReg1 = 28; rdReg2 = 29; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
 		#10 rdReg1 = 30; rdReg2 = 31; #2 $display ("rdReg1:%d rdData1:%d rdReg2:%d rdData2:%d", rdReg1, rdData1, rdReg2, rdData2);
