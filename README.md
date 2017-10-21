@@ -2,7 +2,7 @@
 
 ### Schematic
 <p align="center">
-![alt text](https://github.com/BoulaZa5/32bit-alu/blob/master/projectSchematic.sch.svg)
+<img src="https://github.com/BoulaZa5/32bit-alu/blob/master/projectSchematic.sch.svg">
 </p>
 
 ### ALU Features
